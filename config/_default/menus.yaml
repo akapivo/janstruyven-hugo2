@@ -7,6 +7,12 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: About
-    url: about/
+  - name: Projecten
+    url: projecten/
     weight: 20
+  - name: Over ons
+    url: about/
+    weight: 30
+  - name: Links
+    url: nuttigelinks/
+    weight: 40

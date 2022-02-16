@@ -1,0 +1,9 @@
+{{ $taxonomy := "tags" }}
+{{ if .Param $taxonomy }}
+<div class="article-tags text-lowercase">
+  <a href="/projecten">projecten</a> >
+  {{ range $index, $value := (.GetTerms $taxonomy) }}
+  {{ .LinkTitle }}
+  {{ end }}
+</div>
+{{ end }}
