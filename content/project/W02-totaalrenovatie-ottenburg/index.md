@@ -43,6 +43,6 @@ vloeroppervlakte ca 210 m²
 uitvoering: 2007-2008
 </div>  
 <div class="col-md-8">
-{{< gallery album="project/W02-totaalrenovatie-ottenburg" >}}
+{{< gallery album="project/w02" >}}
 </div>  
 </div>
