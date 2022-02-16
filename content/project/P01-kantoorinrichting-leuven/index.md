@@ -9,15 +9,8 @@ tags:
 categories:
   - projecten
 external_link: ""
-header:
-  image: "project/P01-kantoorinrichting-leuven/P01_01_kantoor.jpg"
-  caption: "Kantoor"
 image:
-  placement: 1
-  caption: "Photo by [Geo](https://github.com/gcushen/)"
-  focal_point: "Center"
   preview_only: true
-  alt_text: An optional description of the image for screen readers.
 ---
 <div class="row mt-4">
 <div class="col-md-4 mb-3">
@@ -43,6 +36,6 @@ uitvoering: 2010-2011
 
 </div>  
 <div class="col-md-8">
-{{< gallery album="project/test" >}}
+{{< gallery album="project/p01" >}}
 </div>  
 </div>

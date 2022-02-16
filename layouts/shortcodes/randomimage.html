@@ -1,0 +1,13 @@
+{{ $album := (.Get "album") | default "headers" }}
+{{ $album_path := path.Join "media" $album "*" }}
+{{ $images := resources.Match $album_path | shuffle }}
+<div class="main-hero-image">
+  {{ range $elem_index, $elem_val := $images }}
+  {{ $thisimage := $elem_val.Fill "1200x100" }}
+  {{ if eq $elem_index 0 }}
+  <img src="{{ $thisimage.RelPermalink }}" class="random-img"/>
+  {{ else }}
+  <div class="alt-image d-none" data-src="{{ $thisimage.RelPermalink }}"></div>
+  {{ end }}
+  {{ end }}
+</div>
