@@ -1,7 +1,7 @@
 {{ $ := .root }}
 {{ $page := .page }}
 <div class="randomimg-wrapper">
-  <div class="randomimg-container">
+  <div id="randomimg-sharp" class="randomimg-container">
     {{ range $elem_index, $elem_val := $page.Params.item | shuffle }}
     {{ $thisimage := resources.Get (printf "media/%s" $elem_val.overlay_img) }}
     <div class="randomimg {{ if eq $elem_index 0 }}first-image{{ end }} d-none" data-src="{{ $thisimage.Permalink }}"></div>

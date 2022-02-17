@@ -6,9 +6,8 @@ if (collection.length > 0) {
     imgurls.push(collection[i].getAttribute('data-src'));
   }
   var randomitem = imgurls[Math.floor(Math.random()*imgurls.length)];
-  console.log(randomitem);
+  console.log('=> ' + randomitem);
 
-  document.getElementById('randomslide').style.backgroundImage = 'url(' + randomitem + ')';
-
+  document.getElementById('randomslide').style.backgroundImage = 'linear-gradient(rgba(255,255,255,0.65),rgba(255,255,255,0.95)), url(' + randomitem + ')';
+  document.getElementById('randomimg-sharp').style.backgroundImage = 'url(' + randomitem + ')';
 }
-
