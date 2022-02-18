@@ -3,7 +3,7 @@ widget: blank
 active: true
 headless: true
 weight: 5
-title: Onze medewerkers
+title: onze medewerkers
 ---
 <p>Jan Struyven<br>
 <span class="small">ingenieur-architect Katholieke Universiteit Leuven</span></p>

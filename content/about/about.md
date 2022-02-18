@@ -3,7 +3,7 @@ widget: blank
 active: true
 headless: true
 weight: 10
-title: Ons bureau
+title: ons bureau
 ---
 Het werkterrein bestaat uit individuele woningbouw, nieuwbouw en renovaties, in het bijzonder renovaties van of uitbreidingen aan bestaande woongebouwen binnen een stedelijke context.
 

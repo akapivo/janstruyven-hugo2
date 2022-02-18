@@ -15,11 +15,11 @@ appearance:
 
 marketing:
   seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo blog theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    site_type: LocalBusiness
+    local_business_type: ProfessionalService
+    org_name: 'Jan Struyven Architecten'
+    description: 'Het werkterrein bestaat uit individuele woningbouw, nieuwbouw en renovaties, in het bijzonder renovaties van of uitbreidingen aan bestaande woongebouwen binnen een stedelijke context.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''

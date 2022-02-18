@@ -100,7 +100,7 @@
       {{ if site.Menus.main }}
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="{{ i18n "toggle_navigation" }}">
-      <span><i class="fas fa-bars"></i></span>
+      <span><i class="fa-light fa-bars"></i></span>
       </button>
       {{ end }}
 
@@ -108,7 +108,7 @@
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
         <a class="navbar-brand" href="{{ "/" | relLangURL }}">
         <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-             viewBox="0 0 426.16 85.04" style="enable-background:new 0 0 426.16 85.04; width: 250px;" xml:space="preserve">
+             viewBox="0 0 426.16 85.04" style="enable-background:new 0 0 426.16 85.04; width: 220px;" xml:space="preserve">
 <path d="M47.9,19.81c-6.13,0-11.12,4.99-11.12,11.12v21.04c0,3.92-3.19,7.12-7.12,7.12c-3.92,0-7.12-3.19-7.12-7.12h-4
 	c0,6.13,4.99,11.12,11.12,11.12c6.13,0,11.12-4.99,11.12-11.12V30.93c0-3.92,3.19-7.12,7.12-7.12c3.92,0,7.12,3.19,7.12,7.12v16.05
 	h-7.15v4h7.15v11.43h4V30.93C59.02,24.8,54.03,19.81,47.9,19.81z"/>
@@ -291,7 +291,7 @@
         {{ $show_search := site.Params.header.navbar.show_search | default true }}
         {{ if and site.Params.features.search.provider $show_search }}
         <li class="nav-item">
-          <a class="nav-link js-search" href="#" aria-label="{{ i18n "search" }}"><i class="fas fa-search" aria-hidden="true"></i></a>
+          <a class="nav-link js-search" href="#" aria-label="{{ i18n "search" }}"><i class="fa-light fa-magnifying-glass" aria-hidden="true"></i></a>
         </li>
         {{ end }}
 
@@ -300,17 +300,17 @@
         {{ if and $has_day_night_themes $show_day_night }}
         <li class="nav-item dropdown theme-dropdown">
           <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="{{ i18n "theme_selector" | default "Display preferences" }}">
-            <i class="fas fa-moon" aria-hidden="true"></i>
+            <i class="fa-light fa-lightbulb" aria-hidden="true"></i>
           </a>
           <div class="dropdown-menu">
             <a href="#" class="dropdown-item js-set-theme-light">
-              <span>{{ i18n "theme_light" | default "Light" }}</span>
+              <span>lichte modus</span>
             </a>
             <a href="#" class="dropdown-item js-set-theme-dark">
-              <span>{{ i18n "theme_dark" | default "Dark" }}</span>
+              <span>donkere modus</span>
             </a>
             <a href="#" class="dropdown-item js-set-theme-auto">
-              <span>{{ i18n "theme_auto" | default "Automatic" }}</span>
+              <span>automatisch</span>
             </a>
           </div>
         </li>

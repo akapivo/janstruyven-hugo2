@@ -4,10 +4,10 @@ date: 2022-02-14T14:24:08.933Z
 subtitle: Onze privacy policy
 summary: Onze privacy policy
 ---
-
+\
 UW PRIVACY OP DE SITE
 
-Voor deze website is gekozen om geen beroep te doen op tracking (geen google analytics, maps, links naar sociale netwerken, ...).
+Voor deze website is gekozen om geen beroep te doen op tracking (geen tracking pixels of cookies, geen analytics, maps, links naar sociale netwerken, ...).
 Er is geen contactformulier, we voorzien enkel de nodige informatie om ons te contacteren.
 De enige cookies die gebruikt worden houden uw voorkeur bij om de site in lichte, donkere of automatische modus te bekijken, zodat u onze site in optimale omstandigheden kan bekijken.
 

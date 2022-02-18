@@ -3,7 +3,7 @@ widget: blank
 active: true
 headless: true
 weight: 5
-title: Nuttige links
+title: nuttige links
 ---
 [Habitos](http://www.habitos.be/)<br>
 (Her)inrichten? Ontdek hier alle mogelijkheden in het interieur en de laatste trends.

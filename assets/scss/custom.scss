@@ -1,6 +1,6 @@
 // Override this file to add your own SCSS styling.
 
-@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=4abd1432-06d1-4c81-961c-6684b47128fc");
+@import url("https://fast.fonts.net/t/1.css?apiType=css&projectid=4abd1432-06d1-4c81-961c-6684b47128fc");
 @font-face{
   font-family:"HelveticaNeueW01-57Cn";
   src:url("/webfont/Fonts/ecaa98fe-425a-42de-846b-c235f0dbc449.eot?#iefix");
@@ -27,27 +27,27 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
   font-size: 1.25rem;
-  text-transform: lowercase;
+  font-weight: 100;
 }
 h2 {
   font-size: 1.10rem;
-  text-transform: lowercase;
+  font-weight: 100;
 }
 h3 {
   font-size: 1.00rem;
-  text-transform: lowercase;
+  font-weight: 100;
 }
 h4 {
   font-size: 0.9rem;
-  text-transform: lowercase;
+  font-weight: 100;
 }
 h5 {
   font-size: 0.85rem;
-  text-transform: lowercase;
+  font-weight: 100;
 }
 h6 {
   font-size: 0.8rem;
-  text-transform: lowercase;
+  font-weight: 100;
 }
 
 .navbar,
@@ -66,6 +66,8 @@ h6 {
 
   .dropdown-item {
     text-align: right;
+    text-transform: lowercase;
+    font-weight: 100;
   }
   .dropdown-menu {
     border: 0;
@@ -110,10 +112,15 @@ body {
 
 .project-toolbar {
   .btn-toolbar {
+
+    .btn-primary {
+      background: #999999;
+    }
+
     a {
-      text-transform: lowercase;
+      text-transform: uppercase;
       border-radius: 0 !important;
-      font-size: 0.75rem;
+      font-size: 0.65rem;
     }
     a:focus, .btn:focus {
       box-shadow: none !important;
@@ -177,13 +184,51 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
 }
 
 .search-header {
   max-width: 85vw;
   margin: 0 auto;
 }
+
+#search-box::before {
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 100;
+  content: '\f002';
+  width: 24px;
+  overflow: hidden;
+  height: 24px;
+  position: absolute;
+  top: 12px;
+  font-size: 0.82rem;
+}
+
+.card .card-image.hover-overlay::after {
+  font-family: 'Font Awesome 6 Pro';
+  font-weight: 100;
+  content: '\f05a';
+}
+
+.tooltip {
+  .tooltip-inner {
+    border-radius: 0 !important;
+    font-size: 0.7rem;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .home-section .container {
+    max-width: 1275px;
+  }
+  .tooltip {
+    .tooltip-inner {
+      font-size: 0.5rem;
+    }
+  }
+}
+
+
 
 
 
