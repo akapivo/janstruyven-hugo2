@@ -1,7 +1,7 @@
 {{ $taxonomy := "tags" }}
 {{ if .Param $taxonomy }}
 <div class="article-tags text-lowercase">
-  <a href="/projecten">projecten</a> >
+  <a href="/projecten">projecten</a> <i class="fa-light fa-angle-right"></i>
   {{ range $index, $value := (.GetTerms $taxonomy) }}
   {{ .LinkTitle }}
   {{ end }}
